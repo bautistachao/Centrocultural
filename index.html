@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - La Bosch</title>
-    <!-- Ruta corregida para que GitHub Pages encuentre el CSS sin errores -->
- <link rel="stylesheet" href="/Negocio/styles.css">
+    <title>Talleres</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <main class="card">
-        <h2>¡Hola! 👋</h2>
-        <p>Elegí una opción para conectar con nosotros:</p>
+    <div class="container">
+        <h1>¡Hola! 👋</h1>
+        <p class="subtitle">Elegí una opción para conectar con nosotros:</p>
 
-        <!-- Google -->
-        <a href="https://search.google.com/local/writereview?placeid=ChIJKwK-dLy5vJURDs5I4phVjVs" target="_blank" rel="noopener noreferrer" class="btn btn-google">
-            ⭐ Valórranos en Google
-        </a>
+        <div class="workshops-grid">
+            <!-- Taller de Guitarra (Izquierda) -->
+            <div class="workshop-card">
+                <h2>Taller de guitarra</h2>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0?w=500&auto=format&fit=crop&q=60" alt="Guitarra">
+                </div>
+                <p class="description">Aprendé desde cero o perfeccioná tu técnica con clases personalizadas adaptadas a tus gustos musicales.</p>
+                <a href="https://wa.me/" target="_blank" class="whatsapp-btn">
+                    💬 Escribinos por WhatsApp
+                </a>
+            </div>
 
-        <!-- WhatsApp -->
-        <a href="https://wa.me/5491127970536" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-            💬 Escribinos por WhatsApp
-        </a>
-
-        <!-- Instagram -->
-        <a href="https://instagram.com/chao.bau99" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
-            📸 Seguinos en Instagram
-        </a>
-    </main>
+            <!-- Taller de Anime (Derecha) -->
+            <div class="workshop-card">
+                <h2>Taller de anime</h2>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=500&auto=format&fit=crop&q=60" alt="Anime">
+                </div>
+                <p class="description">Sumérgete en el mundo del dibujo estilo manga y anime, aprendiendo proporciones, entintado y color digital.</p>
+                <a href="https://wa.me/" target="_blank" class="whatsapp-btn">
+                    💬 Escribinos por WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
