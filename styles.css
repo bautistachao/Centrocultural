@@ -1,0 +1,101 @@
+/* Configuración general: Fondo limpio y sofisticado */
+body {
+    font-family: 'Playfair Display', serif; /* Tipografía principal con serifa elegante */
+    background-color: #111111; /* Fondo negro profundo para contraste */
+    color: #e0e0e0; /* Texto gris muy claro, casi blanco */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Tarjeta principal: Sólida, con borde sutil y sobria */
+.card {
+    background: #1a1a1a; /* Fondo de la tarjeta ligeramente más claro que el body */
+    border: 1px solid #333333; /* Borde metálico oscuro muy fino */
+    padding: 45px 30px;
+    border-radius: 8px; /* Bordes menos redondeados para mayor formalidad */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra profunda pero difusa */
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+/* Título: Estilo editorial y exclusivo */
+h2 {
+    color: #f5f5f5;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 400; /* Peso ligero para elegancia */
+    font-family: 'Playfair Display', serif;
+}
+
+/* Párrafo: Minimalista */
+p {
+    color: #a0a0a0;
+    font-size: 15px;
+    margin-bottom: 35px;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif; /* Combinación de tipografías: Sans para legibilidad */
+}
+
+/* Botones: Elegancia minimalista con toques de color refinado */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px;
+    margin: 16px 0;
+    border-radius: 4px; /* Botones rectangulares */
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Efecto hover: Sutil cambio de fondo y borde dorado */
+.btn:hover {
+    transform: translateY(-2px);
+    border-color: #c5a059; /* Borde color Oro al pasar el mouse */
+    background-color: #242424; /* Fondo ligeramente más claro en hover */
+    color: #c5a059; /* El texto también se vuelve dorado */
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+/* Estilos específicos de botones (colores sutiles e integrados) */
+.btn-google { 
+    border-color: #4285F4;
+}
+.btn-google:hover {
+    background-color: rgba(66, 133, 244, 0.1); /* Solo un toque del color original */
+}
+
+.btn-whatsapp { 
+    border-color: #25D366;
+}
+.btn-whatsapp:hover {
+    background-color: rgba(37, 211, 102, 0.1);
+}
+
+.btn-instagram { 
+    border-color: #E1306C;
+}
+.btn-instagram:hover {
+    background-color: rgba(225, 48, 108, 0.1);
+}
+
+/* Asegurar que los íconos de los botones no cambien de color */
+.btn i {
+    font-size: 20px;
+}
