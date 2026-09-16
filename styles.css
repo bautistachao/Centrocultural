@@ -28,7 +28,7 @@ body {
     border-radius: 16px;
     /* AQUÍ HACES EL CONTENEDOR MÁS ALTO: Aumentamos el padding vertical a 70px */
     padding: 70px 40px; 
-    max-width: 1250px;
+    max-width: 1400px;
     width: 100%;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
     text-align: center;
