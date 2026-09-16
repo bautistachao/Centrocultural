@@ -27,7 +27,7 @@ body {
     background-color: #161616;
     border: 1px solid #282828;
     border-radius: 16px;
-    padding: 70px 40px; /* Más espacio interior */
+    padding: 80px 70px; /* Más espacio interior */
     max-width: 1600px;  /* Pantalla principal más ancha y espaciosa */
     width: 100%;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
@@ -49,7 +49,7 @@ h1 {
 /* Contenedor de las dos columnas */
 .workshops-grid {
     display: flex;
-    gap: 35px; /* Más separación entre las dos columnas */
+    gap: 60px; /* Más separación entre las dos columnas */
     justify-content: space-between;
 }
 
