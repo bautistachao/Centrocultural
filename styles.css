@@ -26,31 +26,29 @@ body {
     background-color: #161616;
     border: 1px solid #282828;
     border-radius: 16px;
-    /* AQUÍ HACES EL CONTENEDOR MÁS ALTO: Aumentamos el padding vertical a 70px */
-    padding: 70px 40px; 
-    max-width: 1600px;
+    padding: 60px 50px;
+    max-width: 1600px; /* Contenedor general más ancho */
     width: 100%;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
     text-align: center;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem; /* Título principal más grande */
     margin-bottom: 12px;
     font-weight: 700;
 }
 
 .subtitle {
-    color: #9a9a9a;
-    /* Mayor margen abajo para darle más altura visual al bloque superior */
-    margin-bottom: 50px; 
-    font-size: 1.05rem;
+    color: #b5b5b5; /* Subtítulo un poco más claro para que resalte */
+    margin-bottom: 50px;
+    font-size: 1.2rem; /* Letra más grande */
 }
 
-/* Contenedor de las dos columnas (con buen espacio entre ellas) */
+/* Contenedor de las dos columnas */
 .workshops-grid {
     display: flex;
-    gap: 50px; 
+    gap: 40px; 
     justify-content: space-between;
 }
 
@@ -59,7 +57,7 @@ h1 {
     background-color: #1a1a1a;
     border: 1px solid #2e2e2e;
     border-radius: 14px;
-    padding: 30px 25px;
+    padding: 35px 30px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -67,20 +65,21 @@ h1 {
     text-align: center;
 }
 
+/* Títulos de los talleres (Guitarra y Anime) más grandes y claros */
 .workshop-card h2 {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
+    font-size: 1.6rem; 
+    margin-bottom: 22px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
 }
 
-/* Caja de la foto (mantiene su altura cómoda y original de 200px) */
+/* Caja de la foto */
 .image-box {
     width: 100%;
-    height: 200px; 
+    height: 240px; /* Fotos un poco más altas */
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     background-color: #222;
 }
 
@@ -90,27 +89,27 @@ h1 {
     object-fit: cover;
 }
 
-/* Descripción */
+/* Descripciones y horarios con letras más grandes y legibles */
 .description {
-    font-size: 0.95rem;
-    color: #b0b0b0;
+    font-size: 1.05rem; /* Letra más grande */
+    color: #d1d1d1;     /* Color más claro para que se note más */
     margin-bottom: 30px;
     flex-grow: 1;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
-/* Botón de WhatsApp alargado */
+/* Botón de WhatsApp más grande y llamativo */
 .whatsapp-btn {
     display: block;
     width: 100%;
     background-color: transparent;
     color: #4ade80;
-    border: 1px solid #22c55e;
-    padding: 15px;
+    border: 1.5px solid #22c55e;
+    padding: 16px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Letra del botón más grande */
     transition: all 0.3s ease;
 }
 
@@ -124,7 +123,7 @@ h1 {
 @media (max-width: 768px) {
     .workshops-grid {
         flex-direction: column;
-        gap: 25px;
+        gap: 30px;
     }
     .container {
         padding: 40px 20px;
