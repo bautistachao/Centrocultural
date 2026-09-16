@@ -27,8 +27,8 @@ body {
     background-color: #161616;
     border: 1px solid #282828;
     border-radius: 16px;
-    padding: 50px 40px; /* Más espacio interior */
-    max-width: 1400px;  /* Pantalla principal más ancha y espaciosa */
+    padding: 70px 40px; /* Más espacio interior */
+    max-width: 1600px;  /* Pantalla principal más ancha y espaciosa */
     width: 100%;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
     text-align: center;
